@@ -18,7 +18,7 @@ class Vendita extends Model
     use HasFactory;
     
     /**
-     * ricaviamo il point della vendita
+     * m2m points
      */
     public function points()
     {
